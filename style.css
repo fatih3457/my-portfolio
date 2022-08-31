@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+  }
+
+
 .container .navbar {
     width: 100%;
     height: 80px;
@@ -11,7 +23,7 @@
 .navbar ul li {
     list-style: none;
     display:inline-block;
-    margin: 0 78px;
+    margin: 0 38px;
     line-height: 80px;
     
 }
@@ -27,3 +39,94 @@
     background: #ff6e00;
     border-radius: 2px;
 }
+
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+.socials {
+    position: relative;
+    margin-top: 9rem;
+  }
+  .socials .social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .socials .social-icons li {
+    display: inline-block;
+    margin-bottom: 14px;
+  }
+  .social-icons a {
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 44px;
+    color: #00d9ff;
+    background-color: #09011b;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .social-icons a:active,
+  .social-icons a:focus,
+  .social-icons a:hover {
+    color: #fff;
+    background-color: #0685da;
+  }
+  .social-icons a.github:hover {
+    background-color: #0e0e0e;
+  }
+  .social-icons a.twitter:hover {
+    background-color: #00aced;
+  }
+  .social-icons a.linkedin:hover {
+    background-color: #007bb6;
+  }
+  .social-icons a.instagram:hover {
+    background-color: #ee00da;
+  }
+ 
