@@ -49,6 +49,12 @@
 .about img{
 	height: auto;
 	width: 430px;
+  border-radius: 10px;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 25px;
 }
 .about-text{
 	width: 550px;
