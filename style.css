@@ -136,3 +136,33 @@
     background-color: #ee00da;
   }
  
+  .footer {
+    background-color: greenyellow;
+  }
+
+  .box-container {
+    text-align: center;
+  }
+
+
+  .btn{
+
+    position:fixed;
+    border: none;
+    color: white;
+    background-color: #ee00da;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+    text-decoration:none;
+    border-radius: 10PX; 
+    top:580px;
+    right: 580px;
+  
+}
+
+.btn:hover {
+  color: #4CAF50;
+  background-color: #fff;
+  border: 2px solid #4CAF50;
+}
