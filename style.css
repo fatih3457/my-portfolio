@@ -68,21 +68,30 @@
 	align-items: center;
 	justify-content: space-around;
 }
+
+.container-aboutme {
+  text-align: center;
+  width: 550px;
+  font-size:45px;
+  color: #ee00da;
+
+}
+
 .about-text h2{
-	color: white;
+	color: green;
 	font-size: 75px;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
 .about-text h5{
-	color: white;
+	color: black;
 	letter-spacing: 2px;
 	font-size: 22px;
 	margin-bottom: 25px;
 	text-transform: capitalize;
 }
 .about-text p{
-	color: #fcfc;
+	color: blue;
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
@@ -146,8 +155,6 @@
 
 
   .btn{
-
-    position:fixed;
     border: none;
     color: white;
     background-color: #ee00da;
