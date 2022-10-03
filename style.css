@@ -13,7 +13,7 @@
 .container .navbar {
     width: 100%;
     height: 80px;
-    background: rgba(22, 112, 214, 0.4);
+    background: linear-gradient(yellow , red);    
 }
 
 .navbar ul {
@@ -44,12 +44,12 @@
 .about{
 	width: 100%;
 	padding: 100px 0px;
-	background-color: #191919;
+	background: linear-gradient(black , grey, black); 
 }
 .about img{
 	height: auto;
 	width: 430px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .social-icons li {
@@ -120,7 +120,7 @@
     width: 44px;
     height: 44px;
     text-align: center;
-    margin-right: 8px;
+    margin-right: -15px;
     border-radius: 100%;
     -webkit-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
@@ -146,7 +146,7 @@
   }
  
   .footer {
-    background-color: greenyellow;
+    background: linear-gradient(blue , turquoise);    
   }
 
   .box-container {
