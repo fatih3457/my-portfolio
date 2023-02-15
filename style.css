@@ -57,7 +57,7 @@
   margin: 25px;
 }
 .about-text{
-	width: 550px;
+	width: 350px;
 }
 
 .main{
@@ -71,32 +71,61 @@
 
 .container-aboutme {
   text-align: center;
+  width: 7050px;
+  font-size:45px;
+  color: #107225;
+
+}
+
+.container-aboutme h2{
+	color: rgb(0, 255, 200);;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.container-aboutme p{
+	color: rgb(0, 255, 200);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 25px;
+	margin-bottom: 55px;
+}
+
+
+.container-aboutme {
+  text-align: center;
   width: 550px;
   font-size:45px;
   color: #107225;
 
 }
 
-.about-text h2{
-	color: green;
-	font-size: 75px;
-	text-transform: capitalize;
-	margin-bottom: 20px;
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.about-text h5{
-	color: black;
-	letter-spacing: 2px;
-	font-size: 22px;
-	margin-bottom: 25px;
-	text-transform: capitalize;
+
+.about-img {
+  width: 40%;
 }
-.about-text p{
-	color: blue;
-	letter-spacing: 1px;
-	line-height: 28px;
-	font-size: 18px;
-	margin-bottom: 45px;
+
+.about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
+.about-text {
+  width: 40%;
+}
+
+.about-text p {
+  font-size: 15px;
+  text-align: center;
+  color: #2c2727;
+} */
 
 .socials {
     position: relative;
@@ -144,36 +173,11 @@
   .social-icons a.instagram:hover {
     background-color: #ee00da;
   }
- 
-  .footer {
-    background: linear-gradient(blue , turquoise);    
-  }
+
 
   .box-container {
     text-align: center;
   }
 
 
-  .btn{
-    border: none;
-    color: white;
-    background-color: #ee00da;
-    padding: 10px 20px;
-    cursor: pointer;
-    border: 2px solid #4CAF50;
-    text-decoration:none;
-    border-radius: 10PX; 
-    top:580px;
-    right: 580px;
   
-}
-
-.btn:hover {
-  color: #4CAF50;
-  background-color: #fff;
-  border: 2px solid #4CAF50;
-}
-
-
-
-
