@@ -78,17 +78,21 @@
 }
 
 .container-aboutme h2{
-	color: rgb(0, 255, 200);;
+
+  color: rgb(0, 255, 200);;
 	font-size: 75px;
 	text-transform: capitalize;
 	margin-bottom: 20px;
+  
 }
 
+
 .container-aboutme p{
+  font: italic bold 12px/30px Georgia, serif;
 	color: rgb(0, 255, 200);
 	letter-spacing: 1px;
 	line-height: 28px;
-	font-size: 25px;
+	font-size: 30px;
 	margin-bottom: 55px;
 }
 
